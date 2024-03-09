@@ -1,0 +1,232 @@
+{
+  "basics": {
+    "name": "Leandro Arturi",
+    "label": "Tech Lead & Full Stack Developer",
+    "image": "/me.webp",
+    "email": "lea.arturi@gmail.com",
+    "phone": "",
+    "url": "https://leandroarturi.com.ar",
+    "summary": "Soy Desarrollador Web Full Stack graduado como Licenciado en Sistemas en la UBA. Mi trayectoria profesional se ha centrado en liderar equipos, gestionar proyectos y diseñar arquitecturas de soluciones innovadoras. Me destaco por mi habilidad para trabajar en proyectos a largo plazo y mi dedicación para resolver problemas complejos. Mi enfoque pragmático, combinado con una mentalidad flexible y organizada, me ha permitido guiar equipos hacia el éxito y desarrollar soluciones tecnológicas de vanguardia.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Ciudad de Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "leandroarturi",
+        "url": "https://linkedin.com/in/leandroarturi"
+      },
+      {
+        "network": "X",
+        "username": "leandroarturi",
+        "url": "https://x.com/leandroarturi"
+      },
+      {
+        "network": "GitHub",
+        "username": "larturi",
+        "url": "https://github.com/larturi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Telecom",
+      "position": "Techinical Leader",
+      "url": "https://www.personal.com.ar",
+      "startDate": "2022-11-01",
+      "endDate": null,
+      "summary": "Technical Lead en Canales Digitales. Nexo entre el negocio y el equipo de desarrollo. Refinamientos, pruebas de concepto, code reviews, releases, planning.",
+      "highlights": ["Next.js", "Nest.js", "React", "Node", "AWS"]
+    },
+    {
+      "name": "WitWorks",
+      "position": "Techinical Leader",
+      "url": "https://witworks.cloud",
+      "startDate": "2022-01-01",
+      "endDate": "2022-10-01",
+      "summary": "TLíder técnico a cargo de la arquitectura, diseño y desarrollo de WitWorks, software especializado en gestión de reaseguros.",
+      "highlights": ["Django", "PHP", "React"]
+    },
+    {
+      "name": "PAMI",
+      "position": "Subgerente de Gestión de la demanda",
+      "url": "https://www.pami.org.ar",
+      "startDate": "2015-12-01",
+      "endDate": "2021-11-01",
+      "summary": "Responsable de 6 equipos especializados por área de negocio. Análisis y gestión de la demanda, modelado de datos, revisiones de código, pruebas de concepto de nuevas tecnologías.",
+      "highlights": ["PHP", "Node.js", "Oracle"]
+    },
+    {
+      "name": "PAMI",
+      "position": "Techinical Leader",
+      "url": "https://www.pami.org.ar",
+      "startDate": "2012-07-01",
+      "endDate": "2015-12-01",
+      "summary": "Diseño, desarrollo y mantenimiento. Desarrollo e implementación de la Plataforma CUP, solución Single Sign On que permitió unificar la seguridad de más de 50 sistemas.      ",
+      "highlights": ["PHP", "JavaScript", "Oracle"]
+    },
+    {
+      "name": "PAMI",
+      "position": "Techinical Leader",
+      "url": "https://www.pami.org.ar",
+      "startDate": "2008-04-01",
+      "endDate": "2012-07-01",
+      "summary": "Diseño, desarrollo y mantenimiento sistemas de información. Revisiones de código, documentación, pruebas de concepto de nuevas tecnologías.",
+      "highlights": [
+        "Visual Basic",
+        "Visual Basic .NET",
+        "Oracle",
+        "SQL Server"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universidad de Buenos Aires",
+      "url": "https://www.uba.ar",
+      "area": "Ingeniería de Software",
+      "studyType": "Bachelor",
+      "startDate": "2003-01-01",
+      "endDate": "2010-01-01",
+      "score": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Excel To JSON",
+      "isActive": true,
+      "description": "Permite convertir de Excel a Json y viceversa",
+      "highlights": ["Next.js"],
+      "url": "https://next-excel-to-json-converter.vercel.app/convert/xlsx-to-json",
+      "github": "https://github.com"
+    },
+    {
+      "name": "App Router Fetching",
+      "isActive": true,
+      "description": "PoC para comprender de manera simple la nueva forma de hacer fecthing en Next.14",
+      "highlights": ["Next.js", "ISR", "SSR", "SSG"],
+      "url": "https://nextjs-14-app-router-fetching-poc.vercel.app/",
+      "github": "https://github.com"
+    },
+    {
+      "name": "English Word Forms",
+      "isActive": true,
+      "description": "Esta app te permite practicar familias de palabras en Inglés.",
+      "highlights": ["Next.js", "PHP", "Flask"],
+      "url": "https://next-words-form.vercel.app/",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Cartera de Sistemas",
+      "isActive": true,
+      "description": "Sistema de administración de activos informáticos",
+      "highlights": ["Laravel", "Vue.js", "MySQL"],
+      "url": "https://www.carteradesistemas.cloudapp.com.ar/login",
+      "github": "https://github.com"
+    }
+  ]
+}
