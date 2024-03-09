@@ -21,14 +21,14 @@
         "url": "https://linkedin.com/in/leandroarturi"
       },
       {
-        "network": "X",
-        "username": "leandroarturi",
-        "url": "https://x.com/leandroarturi"
-      },
-      {
         "network": "GitHub",
         "username": "larturi",
         "url": "https://github.com/larturi"
+      },
+      {
+        "network": "Portfolio",
+        "username": "leandroarturi",
+        "url": "https://leandroarturi.com.ar"
       }
     ]
   },
@@ -48,7 +48,7 @@
       "url": "https://witworks.cloud",
       "startDate": "2022-01-01",
       "endDate": "2022-10-01",
-      "summary": "TLíder técnico a cargo de la arquitectura, diseño y desarrollo de WitWorks, software especializado en gestión de reaseguros.",
+      "summary": "Líder técnico a cargo de la arquitectura, diseño y desarrollo de WitWorks, software especializado en gestión de reaseguros.",
       "highlights": ["Django", "PHP", "React"]
     },
     {

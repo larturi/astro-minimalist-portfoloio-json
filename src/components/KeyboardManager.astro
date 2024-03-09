@@ -1,0 +1,96 @@
+---
+import { basics } from '@cv'
+const { profiles } = basics
+
+const profilesInfo = profiles.map(({ network, url }) => {
+  const firstLetter = network[0].toUpperCase()
+  return {
+    section: 'Social',
+    title: network,
+    url,
+    hotkey: `ctrl+${firstLetter}`
+  }
+})
+---
+
+<footer class='no-print'>
+  Pulsa <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
+</footer>
+
+<ninja-keys data-info={JSON.stringify(profilesInfo)} placeholder='Buscar atajo'
+></ninja-keys>
+
+<script>
+  import 'ninja-keys'
+
+  const ninja = document.querySelector('ninja-keys')
+
+  if (ninja !== null) {
+    const info = ninja.getAttribute('data-info') ?? '[]'
+
+    const parsedInfo = JSON.parse(info)
+
+    const data = parsedInfo.map((item: any) => {
+      return {
+        ...item,
+        handler: () => {
+          window.open(item.url, '_blank')
+        }
+      }
+    })
+
+    ninja.data = [
+      {
+        id: 'print',
+        title: '🖨️ Imprimir',
+        hotkey: 'ctrl+P',
+        section: 'Acciones',
+        handler: () => {
+          window.print()
+        }
+      },
+      ...data
+    ]
+  }
+</script>
+
+<style>
+  footer {
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+
+    view-timeline-name: --revealing;
+    view-timeline-axis: block;
+
+    animation: linear 0.3s fadeIn;
+    animation-timeline: --revealing;
+    animation-range: entry 100% cover 10%;
+  }
+
+  kbd {
+    background: #eee;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 12px;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @media print {
+    ninja-keys {
+      display: none !important;
+    }
+  }
+</style>
